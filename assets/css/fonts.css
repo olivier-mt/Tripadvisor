@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Trip Sans Mono";
+  src: url("TripSansMono-Regular.woff2") format("woff2"),
+    url("TripSansMono-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Trip Sans Reg";
+  src: url("/assets/fonts/TripSansMono-Regular.woff2") format("woff"),
+    url("TripSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Trip Sans Med";
+  src: url("/assets/fonts/TripSans-Medium.woff2") format("woff2"),
+    url("TripSans-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
