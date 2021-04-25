@@ -19,23 +19,23 @@
   </head>
   <body>
     <header class="container">
-      <i class="fas fa-bars hidden"></i>
+   <i class="fas fa-bars hidden"></i>
       <img
         src="./assets/img/Tripadvisor_lockup_horizontal_secondary_registered.svg"
         alt=""
       />
+   <i class="fas fa-search hidden"></i>
       <nav>
-        <div><i class="fas fa-plane"></i><span>Avis</span></div>
-        <div><i class="fas fa-plane"></i><span>Alertes</span></div>
+        <div><i class="far fa-edit"></i><span>Avis</span></div>
+        <div><i class="far fa-bell"></i><span>Alertes</span></div>
 
-        <div><i class="fas fa-plane"></i><span>Favoris</span></div>
+        <div><i class="far fa-heart"></i><span>Favoris</span></div>
         <button>Connectez-vous</button>
       </nav>
-      <i class="fas fa-search hidden"></i>
     </header>
     <main class="container">
       <h1><span>Explorez</span> Paris</h1>
-      <nav class="menu container">
+      <nav class="menu container" id="menu-div">
         <div>
           <span>Hôtel</span>
 
@@ -68,7 +68,7 @@
         </div>
 
         <div>
-          <span>Plus</span>
+          <span>Croisère</span>
           <i class="fas fa-bed"></i>
         </div>
 
@@ -95,7 +95,7 @@
               Des lieux à voir, des rues à explorer et des expériences
               emblématiques à Paris.
             </p>
-          </div>
+          </div class="immanquable-t-content">
 
           <div class="places">
             <div class="content">
@@ -175,13 +175,13 @@
             </div>
           </div>
 
-          <div class="activity">
+          <div class="activity .container">
             <img src="/assets/img/musee-grevin.jpg" alt="" />
             <p>Les 10 monuments et musées de Paris à faire</p>
             <p>10 articles</p>
             <div class="author">
               <img src="/assets/img/topito.png" alt="" />
-              <p>Par Topito</p>
+              <span>Par Topito</span>
             </div>
           </div>
         </div>
@@ -193,7 +193,7 @@
         <p>
           Made at
           <a href="https://www.lereacteur.io/" target="_blank">Reacteur</a> by
-          Olivier Mountou - 2021
+         <a href="https://github.com/olivier-mt?tab=repositories "target="_blank">Olivier Mountou</a>  - 2021
         </p>
       </div>
     </footer>
