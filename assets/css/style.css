@@ -96,6 +96,7 @@ h1 {
 
 h1 span {
   font-weight: bold;
+  color: #fe5d5d;
 }
 
 /*-----Menu-------*/
@@ -531,6 +532,7 @@ footer img {
   .pictures {
     margin-left: 0px;
     margin-right: 0px;
+    padding: 0px;
     object-fit: cover;
   }
 
@@ -547,12 +549,8 @@ footer img {
     margin-top: 20px;
   }
 
-  .immanquable .text {
-    width: auto;
-  }
-
-  .immanquable .text > p {
-    width: auto;
+  .places {
+    margin-left: 20px;
   }
 
   /*----GUIDE ----*/
