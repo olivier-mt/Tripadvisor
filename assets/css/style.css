@@ -27,6 +27,7 @@ h4 {
 }
 
 .hidden {
+  color: white;
   display: none;
 }
 
@@ -472,6 +473,7 @@ footer img {
 @media (max-width: 768px) {
   .hidden {
     display: flex;
+    color: black;
   }
 
   /*----HEADER----*/
