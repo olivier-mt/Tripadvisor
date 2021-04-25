@@ -29,6 +29,7 @@ h4 {
 .hidden {
   display: none;
 }
+
 /*---- Header -----*/
 
 header {
@@ -340,12 +341,6 @@ footer img {
 }
 
 /*-------Media-Query--------*/
-
-@media (max-width: 1328px) {
-  .hidden {
-    display: none;
-  }
-}
 
 @media (max-width: 1184px) {
   header {
